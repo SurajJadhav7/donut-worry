@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* CSS */
+/* .dropdown-menu {
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  opacity: 1;
+  transform: translateX(-100%);
+  visibility: hidden;
+  background-color: white;
+}
+
+.dropdown-menu.open {
+  transform: translateX(0);
+  visibility: visible;
+} */
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideOutToRight {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+.slide-in-from-right {
+  animation: slideInFromRight 0.5s ease-in-out;
+}
+
+.slide-out-to-right {
+  animation: slideOutToRight 0.5s ease-in-out;
+}
+.border-black {
+  border: 1px solid #000; /* Replace with your desired black color code */
+}
+
+.bg-black {
+  background-color: #000; /* Replace with your desired brown color code */
+}
