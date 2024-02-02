@@ -8,7 +8,7 @@ const Puffs = () => {
       <img
         src="potato-patties-served-ketchup-plate-600nw-2260992581-PhotoRoom.png-PhotoRoom.png"
         alt="Puff"
-        className="w-full mr-[50px] h-96 md:w-96 md:h-96 rounded mb-4 md:mb-0 hover:shadow-lg transition-transform duration-300 transform hover:scale-105" // Responsive image sizing
+        className="w-full mr-[50px] h-96 md:w-96 md:h-96 rounded mb-4 md:mb-0 transition-transform duration-300 transform hover:scale-105" // Responsive image sizing
         style={{ maxWidth: "60%", height: "60%" }}
       />
       {/* </div> */}
